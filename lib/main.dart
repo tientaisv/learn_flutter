@@ -3,8 +3,8 @@ import 'model/user.dart';
 
 void main() {
   //runApp(const MyApp());
-  User user = User(name: "Tai2", id: 2);
-  print(user.toString());
+  User user = User(name: "Tài", id: 2);
+  user.logInfo();
 }
 
 class MyApp extends StatelessWidget {
