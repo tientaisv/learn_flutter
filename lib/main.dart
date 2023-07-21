@@ -1,10 +1,10 @@
+// 1 import thu vien can dung
 import 'package:flutter/material.dart';
-import 'model/user.dart';
 
+// function main run default
 void main() {
-  //runApp(const MyApp());
-  User user = User(name: "Tài", id: 2);
-  user.logInfo();
+  // ham goi chay app
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
